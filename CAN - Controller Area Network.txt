@@ -89,18 +89,5 @@ Error detection is done by:
 
 Monitoring data transmitted on the bus. Every transmitter compares the bit level it transmitted with the bit level it received from the bus.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Cyclic redundancy check
 
