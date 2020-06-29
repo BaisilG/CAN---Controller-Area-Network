@@ -25,3 +25,5 @@ The bus can have one of the two logic values — dominant or recessive. During s
 
 The CAN bus has different versions, including CAN 2.0A, CAN 2.0B and CAN Open. The International Standards Organization (ISO) has specified ISO 11898 (High speed CAN bus, up to 1Mb/sec) and ISO 11519 (Low speed CAN bus, 125Kb/sec).
 
+
+Working Principle
