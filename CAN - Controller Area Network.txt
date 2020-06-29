@@ -69,6 +69,10 @@ The ACK delimiter is the second bit of the ACK field and has to be a "recessive"
 The "Inter frame gap" is the minimum number of 3 bits separating consecutive messages. Unless another station starts transmitting, the bus remains idle after this. The identifier with the lowest numerical value has the highest priority. Any potential bus conflicts are resolved by bitwise arbitration in accordance with the wired AND mechanism, by which a dominant state (logic 0) overwrites a recessive state (logic 1).
 
 
+Advantages of the CAN bus include:
+
+There is no separate master bus controller. Any node, which has priority message, will be transmitting data to the bus.
+
 
 
 
