@@ -55,6 +55,7 @@ The CAN bus data frame consists of seven different bit fields: Start of Frame; A
 
 3. The Control field contains the Identifier Extension (IDE) bit, which is reserved bit r1 to distinguish between the CAN base frame (CAN2A); the CAN extended frame (CAN2B); and the Data Length Code (DLC), which is used to indicate the number of following data bytes in the Data field. If the message is used as a remote frame, the DLC contains the number of requested data bytes.
 
+4. The Data field that follows is able to hold up to 8 data bytes. This represents the actual information content in the message.
 
 
 
