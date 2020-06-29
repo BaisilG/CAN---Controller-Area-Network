@@ -7,3 +7,4 @@ Introduced in the 1980s by Robert Bosch GmbH, the CAN bus was first installed in
 
 To improve safety and comfort, many electronic control units (ECU), such as anti-lock braking, engine management, traction control, air conditioning control, central door locking and powered seat and mirror controls, were added in automobiles.
 
+To interconnect these ECUs and reduce large wiring looms, the CAN bus was implemented. It is capable of working reliably, even in harsh environments.
