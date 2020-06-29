@@ -18,3 +18,5 @@ CAN bus operates at data rates of up to 1 Mb/sec for cable lengths less than 40 
 Controllers connected to the CAN bus can transmit data to the bus and receive data from the bus. Data collisions on the bus are avoided using the CSMA/AMP technique. Carrier Sense Multiple Access (CSMA) ensures that a terminal will transmit only when the bus is quiet (no carrier). If two or more terminals try to transmit at the same time, the bus arbitration logic connects the terminal with a higher-priority message (Arbitration based on Message Priority).
 
 
+There is no theoretical limit to the number of terminals that can be connected to the bus, but it is normally limited to 32 to avoid data delay. Data encoding is NRZ with bit stuffing.
+
