@@ -29,3 +29,8 @@ The CAN bus has different versions, including CAN 2.0A, CAN 2.0B and CAN Open. T
 Working Principle
 
 CAN is a broadcast-type bus. A message transmitted by one line replaceable unit (LRU) is received by all the LRUs connected to the bus. Each LRU will have a filter to accept the message relevant to it. Data messages transmitted from any terminal on a CAN bus do not contain source address or destination address. A data message is transmitted as a frame.
+
+
+In each frame, the message is labeled by an identifier that is unique throughout the network. All other LRUs on the network receive the message and each performs an acceptance test on the identifier to determine if the message and its content are relevant to that particular LRU.
+
+
