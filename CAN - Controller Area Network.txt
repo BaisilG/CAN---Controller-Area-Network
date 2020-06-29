@@ -93,6 +93,12 @@ Cyclic redundancy check
 
 Message frame check
 
+Bit stuffing: Continuous 1s and 0s are avoided in the data that is transmitted to eliminate synchronization problems. After five consecutive equal bits, the transmitter inserts a stuff bit into the bit stream. This stuff bit has a complementary value, which is removed by the receivers.
+
+
+
+
+
 
 
 
