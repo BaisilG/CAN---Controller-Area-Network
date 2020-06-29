@@ -57,6 +57,9 @@ The CAN bus data frame consists of seven different bit fields: Start of Frame; A
 
 4. The Data field that follows is able to hold up to 8 data bytes. This represents the actual information content in the message.
 
+5. The integrity of the frame is guaranteed by the following Cyclic Redundancy Check (CRC) sum.
+
+
 
 
 
