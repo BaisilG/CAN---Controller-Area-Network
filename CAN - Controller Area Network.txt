@@ -91,3 +91,15 @@ Monitoring data transmitted on the bus. Every transmitter compares the bit level
 
 Cyclic redundancy check
 
+Message frame check
+
+
+
+
+
+
+
+
+
+
+
