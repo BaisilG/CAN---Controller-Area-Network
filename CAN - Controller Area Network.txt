@@ -46,3 +46,6 @@ Suppose LRU 1, a fuel quantity processor unit, is transmitting fuel quantity dat
 
 The CAN bus data frame consists of seven different bit fields: Start of Frame; Arbitration; Control; Data; CRC; ACK; and End of Frame
 
+
+
+1. A CAN base frame message begins with the start bit called Start of Frame (SOF). It is a single "dominant" bit.
