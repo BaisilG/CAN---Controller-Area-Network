@@ -39,3 +39,5 @@ In each frame, the message is labeled by an identifier that is unique throughout
 three LRUs are connected to a CAN bus. Each one of them is capable of transmitting to the bus and can receive data from the bus.
 
 To prevent data collision, only one can transmit at any one time, but all can receive at the same time.
+
+Suppose LRU 1, a fuel quantity processor unit, is transmitting fuel quantity data (assume 11bit ID=6BC in hex) to the CAN bus. LRU 2, a water quantity summation unit, receives the data but filters it because it is not going to use this data. LRU 3, a fuel quantity indicator, receives the data transmitted by LRU 1 and uses it to display the fuel quantity.
