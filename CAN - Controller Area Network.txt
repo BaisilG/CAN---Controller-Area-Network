@@ -21,7 +21,7 @@ Controllers connected to the CAN bus can transmit data to the bus and receive da
 There is no theoretical limit to the number of terminals that can be connected to the bus, but it is normally limited to 32 to avoid data delay. Data encoding is NRZ with bit stuffing.
 
 
-The bus can have one of the two logic values — dominant or recessive. During simultaneous transmission of dominant bit (logic0) and recessive bit (logic1), the resulting value will be dominant. For example, in case of a wired – AND implementation of the bus, the dominant level will be represented by a logical 0 and the recessive level would be represented by logical 1.
+ The bus can have one of the two logic values — dominant or recessive. During simultaneous transmission of dominant bit (logic0) and recessive bit (logic1), the resulting value will be dominant. For example, in case of a wired – AND implementation of the bus, the dominant level will be represented by a logical 0 and the recessive level would be represented by logical 1.
 
 The CAN bus has different versions, including CAN 2.0A, CAN 2.0B and CAN Open. The International Standards Organization (ISO) has specified ISO 11898 (High speed CAN bus, up to 1Mb/sec) and ISO 11519 (Low speed CAN bus, 125Kb/sec).
 
@@ -52,4 +52,26 @@ The CAN bus data frame consists of seven different bit fields: Start of Frame; A
 
 
 2. The Arbitration field, which consists of the identifier and the Remote Transmission Request (RTR) bit, is used to distinguish between the data frame and the data request frame called remote frame.
+
+3. The Control field contains the Identifier Extension (IDE) bit, which is reserved bit r1 to distinguish between the CAN base frame (CAN2A); the CAN extended frame (CAN2B); and the Data Length Code (DLC), which is used to indicate the number of following data bytes in the Data field. If the message is used as a remote frame, the DLC contains the number of requested data bytes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
