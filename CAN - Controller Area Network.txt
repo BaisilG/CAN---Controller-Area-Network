@@ -37,3 +37,5 @@ In each frame, the message is labeled by an identifier that is unique throughout
 	
 
 three LRUs are connected to a CAN bus. Each one of them is capable of transmitting to the bus and can receive data from the bus.
+
+To prevent data collision, only one can transmit at any one time, but all can receive at the same time.
