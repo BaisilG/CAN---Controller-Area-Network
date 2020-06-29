@@ -85,6 +85,9 @@ With only the maximum capacity of the bus as a speed-limiting factor, the CAN bu
 
 
 
+Error detection is done by:
+
+Monitoring data transmitted on the bus. Every transmitter compares the bit level it transmitted with the bit level it received from the bus.
 
 
 
