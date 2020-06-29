@@ -34,3 +34,6 @@ CAN is a broadcast-type bus. A message transmitted by one line replaceable unit 
 In each frame, the message is labeled by an identifier that is unique throughout the network. All other LRUs on the network receive the message and each performs an acceptance test on the identifier to determine if the message and its content are relevant to that particular LRU.
 
 
+	
+
+three LRUs are connected to a CAN bus. Each one of them is capable of transmitting to the bus and can receive data from the bus.
