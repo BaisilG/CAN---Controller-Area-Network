@@ -49,3 +49,7 @@ The CAN bus data frame consists of seven different bit fields: Start of Frame; A
 
 
 1. A CAN base frame message begins with the start bit called Start of Frame (SOF). It is a single "dominant" bit.
+
+
+2. The Arbitration field, which consists of the identifier and the Remote Transmission Request (RTR) bit, is used to distinguish between the data frame and the data request frame called remote frame.
+
