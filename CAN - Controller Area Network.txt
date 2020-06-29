@@ -80,6 +80,16 @@ There is no need for any node to wait for the token (like token ring network) to
 
 There is no need to incorporate extensive collision detection circuits and random timers like the Ethernet because the bitwise arbitration technique makes sure that only one message is on the bus at any one time.
 
+With only the maximum capacity of the bus as a speed-limiting factor, the CAN bus will not collapse or lock up.
+
+
+
+
+
+
+
+
+
 
 
 
