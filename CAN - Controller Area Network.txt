@@ -13,3 +13,8 @@ Because of its success in automobiles, CAN bus technology attracted the attentio
 
 CAN bus operates at data rates of up to 1 Mb/sec for cable lengths less than 40 meters. If the cable length increases, the data rate typically falls to 125 Kb/sec for 500 meters (1,640 feet) in length. The data signal is normally transmitted on a twisted pair of wires (shielded or unshielded), but single wire and ground, optical fibre can also be used.
 
+
+
+Controllers connected to the CAN bus can transmit data to the bus and receive data from the bus. Data collisions on the bus are avoided using the CSMA/AMP technique. Carrier Sense Multiple Access (CSMA) ensures that a terminal will transmit only when the bus is quiet (no carrier). If two or more terminals try to transmit at the same time, the bus arbitration logic connects the terminal with a higher-priority message (Arbitration based on Message Priority).
+
+
