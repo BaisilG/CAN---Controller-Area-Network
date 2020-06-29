@@ -64,6 +64,10 @@ The CAN bus data frame consists of seven different bit fields: Start of Frame; A
 
 The ACK delimiter is the second bit of the ACK field and has to be a "recessive" bit. Correct messages are acknowledged by the receivers regardless of the result of the acceptance test.
 
+7. The end of the message is indicated by an End of Frame (EOF) field consisting of 7 recessive bits.
+
+The "Inter frame gap" is the minimum number of 3 bits separating consecutive messages. Unless another station starts transmitting, the bus remains idle after this. The identifier with the lowest numerical value has the highest priority. Any potential bus conflicts are resolved by bitwise arbitration in accordance with the wired AND mechanism, by which a dominant state (logic 0) overwrites a recessive state (logic 1).
+
 
 
 
