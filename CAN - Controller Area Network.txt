@@ -78,6 +78,16 @@ Because of non-destructive bitwise arbitration, there is no need to retransmit t
 
 There is no need for any node to wait for the token (like token ring network) to transmit the message.
 
+There is no need to incorporate extensive collision detection circuits and random timers like the Ethernet because the bitwise arbitration technique makes sure that only one message is on the bus at any one time.
+
+
+
+
+
+
+
+
+
 
 
 
