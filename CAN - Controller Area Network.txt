@@ -73,6 +73,9 @@ Advantages of the CAN bus include:
 
 There is no separate master bus controller. Any node, which has priority message, will be transmitting data to the bus.
 
+Because of non-destructive bitwise arbitration, there is no need to retransmit the message; the priority message only will be on the bus.
+
+
 
 
 
