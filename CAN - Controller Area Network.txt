@@ -60,6 +60,10 @@ The CAN bus data frame consists of seven different bit fields: Start of Frame; A
 5. The integrity of the frame is guaranteed by the following Cyclic Redundancy Check (CRC) sum.
 
 
+6. The Acknowledge (ACK) field comprises the ACK slot and the ACK delimiter. In the ACK field, the transmitting station sends two recessive bits. A receiver, which has received a valid message correctly, reports this to the transmitter by sending a dominant bit during the ACK slot (it sends "ACK"). All stations having received the matching CRC sequence report this within the ACK slot by superscribing the "recessive bit" of the transmitter by a "dominant bit."
+
+The ACK delimiter is the second bit of the ACK field and has to be a "recessive" bit. Correct messages are acknowledged by the receivers regardless of the result of the acceptance test.
+
 
 
 
