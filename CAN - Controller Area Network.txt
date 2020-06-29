@@ -4,3 +4,6 @@ Controller Area Network (CAN)
 CAN - data bus is a serial communications protocol that supports distributed real-time control with a high level of security.
 
 Introduced in the 1980s by Robert Bosch GmbH, the CAN bus was first installed in Mercedes-Benz cars. 
+
+To improve safety and comfort, many electronic control units (ECU), such as anti-lock braking, engine management, traction control, air conditioning control, central door locking and powered seat and mirror controls, were added in automobiles.
+
